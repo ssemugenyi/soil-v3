@@ -6,9 +6,7 @@
 //   customer: "David James",
 //   status: "PENDING",
 
-import { get } from "firebase/database";
 import {
-  fertilizerCalculation,
   getRecommendation,
   kFertilizerCalculation,
   nFertilizerCalculation,

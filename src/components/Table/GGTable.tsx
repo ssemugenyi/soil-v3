@@ -37,41 +37,7 @@ export interface SoilData {
   ts: number;
   PhoneNumber: string;
 }
-interface ORDERTYPE {
-  id: string;
-  productCode: string;
-  date: string;
-  amount: number;
-  quantity: number;
-  customer: string;
-  status: string;
-}
-interface SHOPTYPE {
-  name: string;
-  location: string;
-  description: string;
-}
-interface COMMISIONTYPE {
-  id: string;
-  name: string;
-  status: string;
-  amount_ugx: number;
-  date: string;
-}
 
-interface REVIEWSTYPE {
-  id: number;
-  reviewer: {
-    name: string;
-    email: string;
-  };
-  date: {
-    value: string;
-    time: string;
-  };
-  review_rating: number;
-  description: string;
-}
 interface TABLEPROPS {
   data: SoilData[];
   columns: COLUMNTYPE[];
