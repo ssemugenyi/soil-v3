@@ -190,6 +190,7 @@ function GGTable({
     } else {
       setTableColumns(columns);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [columns, menuOpen]);
 
   const modifiedColumns = useMemo(() => tableColumns, [tableColumns]);
